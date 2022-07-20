@@ -1,4 +1,4 @@
-# BCC-DWII-Sistema-Protótipo
+# BCC-DWII-Sistema-AV2
 Códigos e demais artefatos utilziados como avaliação para a disciplina de Desenvolvimento Web II do 5º Semestre do Curso de Bacharelado em Ciências da Computação
 
 ## Ideia Geral do Sistema
@@ -57,6 +57,22 @@ Para executar, deve-se seguir os seguintes passos:
 ## Problemas Existentes
 
 Por se tratar de um protótipo e existir um prazo de entrega para a avaliação, o sistema em questão apresenta diversos problemas que podem/devem ser resolvidos para que seu uso seja viável. Dentre os principais problemas, cita-se: Desempenho, e Confiabilidade. Por exemplo, não existe nenhuma validação se o envio/recebimento de arquivos a partir do servidor de arquivo está ocorrendo em sua totalidade - o que pode gerar (e gera) diversos erros e comportamento indeseável quando o sistema é executado em uma rede que não garanta condições ótimas de envio.
+
+## Referências
+
+### Livros
+- FAIRBANKS, George. Just enough software architecture: a risk-driven approach. Marshall & Brainerd, 2010.
+- PILLAI, Anand B. Software Architecture with Python. Packt Publishing, 2017.
+- RICHARDS, Mark; FORD, Neal. Fundamentals of Software Architecture: An Engineering Approach. O'Reilly Media, 2020.
+- RICHARDS, Mark. Software Architecture Patterns. O'Reilly Media, 2015.
+
+### Sites
+- KANIECKI, Kyle. Pipe & Filter Pattern in Python. 2020. Disponível em: https://kylekaniecki.com/blog/testing-pipe-filter-pattern-django/
+- NAGPAL, Aman. How to create your own decentralized file sharing service using python. 2018. Disponível em: https://medium.com/@amannagpal4/how-to-create-your-own-decentralized-file-sharing-service-using-python-2e00005bdc4a
+- ROY, Rupali. Image Steganography using Python. 2020. Disponível em: https://towardsdatascience.com/hiding-data-in-an-image-image-steganography-using-python-e491b68b1372
+
+### Vídeos
+- Multithreaded File Transfer using TCP Socket in Python | Socket Programming in Python. Disponível em: https://youtu.be/FQ-scCeKWas
 
 ## Observação Final
 
