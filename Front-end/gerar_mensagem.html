@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>SCMS</title>
+
+    </head>
+
+    <body>
+            
+        <h1>Sistema de Compartilhamento de Mensagens Secretas</h1>
+
+        <div id="menu"></div>
+        
+        <hr>
+
+        <form enctype=multipart/form-data>
+            <label for="campoImagem">Imagem Base: </label>
+            <input id="imagem" type=file name=campoImagem>
+            <label for="campoTexto">Mensagem: </label>
+            <input id="texto" type=file name=campoTexto>
+            <button id="gerar_mensagem" type="button" onClick="return false;">Enviar</button>
+        </form>
+
+        <div id="opcoes"></div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="js/check_login.js"></script>
+        <script src="js/gerar_mensagem.js"></script>
+
+    </body>
+
+</html>
